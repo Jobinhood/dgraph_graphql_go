@@ -10,6 +10,9 @@ go:
   - master
   - "1.12"
 
+# Fork-friendly import path as vanity imports are necessary
+go_import_path: github.com/romshark/dgraph_graphql_go
+
 install: true
 
 matrix:
